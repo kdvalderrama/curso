@@ -1,0 +1,8 @@
+from selenium import webdriver;
+
+WebDriver driver = new FireFoxDriver();
+driver.get("https://www.demoblaze.com");
+String title = driver.getCurrentUrl();
+System.out.println(title);
+System.out.println(driver.getTitle());
+driver.close();
